@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "_000_docker_dotnet_githubaction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7140",
+      "launchBrowser": false
+    }
+  }
+}
