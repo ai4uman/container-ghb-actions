@@ -45,4 +45,4 @@ jobs:
       run: helm repo add stable https://charts.helm.sh/stable
 
     - name: Deploy to AKS using Helm
-      run: helm upgrade --install mymicroserviceapp ./aks-app/charts --set mymicroserviceapp.image.tag=latest
+      run: helm upgrade --install mymicroserviceapp ./aks-app/charts/mymicroserviceapp --set mymicroserviceapp.image.tag=latest
